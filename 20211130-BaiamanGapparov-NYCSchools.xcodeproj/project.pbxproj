@@ -9,12 +9,24 @@
 /* Begin PBXBuildFile section */
 		927B9D4F272E2A3B004A6BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9D4E272E2A3B004A6BDE /* AppDelegate.swift */; };
 		927B9D51272E2A3B004A6BDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9D50272E2A3B004A6BDE /* SceneDelegate.swift */; };
-		927B9D53272E2A3B004A6BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9D52272E2A3B004A6BDE /* ViewController.swift */; };
 		927B9D56272E2A3B004A6BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927B9D54272E2A3B004A6BDE /* Main.storyboard */; };
 		927B9D58272E2A48004A6BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 927B9D57272E2A48004A6BDE /* Assets.xcassets */; };
 		927B9D5B272E2A48004A6BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 927B9D59272E2A48004A6BDE /* LaunchScreen.storyboard */; };
 		927B9D66272E2A48004A6BDE /* _0211130_BaiamanGapparov_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9D65272E2A48004A6BDE /* _0211130_BaiamanGapparov_NYCSchoolsTests.swift */; };
 		927B9D71272E2A48004A6BDE /* _0211130_BaiamanGapparov_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9D70272E2A48004A6BDE /* _0211130_BaiamanGapparov_NYCSchoolsUITests.swift */; };
+		927B9D9F272EFE7C004A6BDE /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9D9E272EFE7C004A6BDE /* School.swift */; };
+		927B9DC0272F15E8004A6BDE /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DBF272F15E8004A6BDE /* SchoolViewController.swift */; };
+		927B9DCC272F7085004A6BDE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DCB272F7085004A6BDE /* Extensions.swift */; };
+		927B9DD4272F72CE004A6BDE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DD3272F72CE004A6BDE /* Constants.swift */; };
+		927B9DD9272F72F0004A6BDE /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DD8272F72F0004A6BDE /* Utils.swift */; };
+		927B9DDE272F731E004A6BDE /* DetailCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DDD272F731E004A6BDE /* DetailCells.swift */; };
+		927B9DE4272F777D004A6BDE /* CellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DE3272F777D004A6BDE /* CellAnimator.swift */; };
+		927B9DEC272F9D6B004A6BDE /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DEB272F9D6B004A6BDE /* SchoolTableViewCell.swift */; };
+		927B9DF1272F9D8E004A6BDE /* SchoolDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DF0272F9D8E004A6BDE /* SchoolDetailTableViewController.swift */; };
+		927B9DF7272F9E8A004A6BDE /* SchoolOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DF6272F9E8A004A6BDE /* SchoolOverviewTableViewCell.swift */; };
+		927B9DFF272F9E9D004A6BDE /* SchoolAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9DFE272F9E9D004A6BDE /* SchoolAddressTableViewCell.swift */; };
+		927B9E04272F9EB7004A6BDE /* SchoolSatScoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9E03272F9EB7004A6BDE /* SchoolSatScoresTableViewCell.swift */; };
+		927B9E09272F9ED4004A6BDE /* SchoolContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927B9E08272F9ED4004A6BDE /* SchoolContactTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +50,6 @@
 		927B9D4B272E2A3B004A6BDE /* 20211130-BaiamanGapparov-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20211130-BaiamanGapparov-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		927B9D4E272E2A3B004A6BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		927B9D50272E2A3B004A6BDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		927B9D52272E2A3B004A6BDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		927B9D55272E2A3B004A6BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		927B9D57272E2A48004A6BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		927B9D5A272E2A48004A6BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,19 @@
 		927B9D6C272E2A48004A6BDE /* 20211130-BaiamanGapparov-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20211130-BaiamanGapparov-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		927B9D70272E2A48004A6BDE /* _0211130_BaiamanGapparov_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0211130_BaiamanGapparov_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		927B9D72272E2A48004A6BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927B9D9E272EFE7C004A6BDE /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		927B9DBF272F15E8004A6BDE /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
+		927B9DCB272F7085004A6BDE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		927B9DD3272F72CE004A6BDE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		927B9DD8272F72F0004A6BDE /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		927B9DDD272F731E004A6BDE /* DetailCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCells.swift; sourceTree = "<group>"; };
+		927B9DE3272F777D004A6BDE /* CellAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellAnimator.swift; sourceTree = "<group>"; };
+		927B9DEB272F9D6B004A6BDE /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		927B9DF0272F9D8E004A6BDE /* SchoolDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailTableViewController.swift; sourceTree = "<group>"; };
+		927B9DF6272F9E8A004A6BDE /* SchoolOverviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolOverviewTableViewCell.swift; sourceTree = "<group>"; };
+		927B9DFE272F9E9D004A6BDE /* SchoolAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAddressTableViewCell.swift; sourceTree = "<group>"; };
+		927B9E03272F9EB7004A6BDE /* SchoolSatScoresTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSatScoresTableViewCell.swift; sourceTree = "<group>"; };
+		927B9E08272F9ED4004A6BDE /* SchoolContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolContactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +123,16 @@
 		927B9D4D272E2A3B004A6BDE /* 20211130-BaiamanGapparov-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				927B9E132730360F004A6BDE /* Network */,
+				927B9DE2272F7759004A6BDE /* Frameworks */,
+				927B9DCA272F706C004A6BDE /* Extensions */,
+				927B9D96272EF62F004A6BDE /* Views */,
+				927B9D8A272EF06B004A6BDE /* Supporting */,
+				927B9D89272EF05A004A6BDE /* Config */,
+				927B9D85272E4D6D004A6BDE /* Controllers */,
+				927B9D82272E4D06004A6BDE /* Models */,
 				927B9D4E272E2A3B004A6BDE /* AppDelegate.swift */,
 				927B9D50272E2A3B004A6BDE /* SceneDelegate.swift */,
-				927B9D52272E2A3B004A6BDE /* ViewController.swift */,
-				927B9D54272E2A3B004A6BDE /* Main.storyboard */,
-				927B9D57272E2A48004A6BDE /* Assets.xcassets */,
-				927B9D59272E2A48004A6BDE /* LaunchScreen.storyboard */,
-				927B9D5C272E2A48004A6BDE /* Info.plist */,
 			);
 			path = "20211130-BaiamanGapparov-NYCSchools";
 			sourceTree = "<group>";
@@ -126,6 +153,95 @@
 				927B9D72272E2A48004A6BDE /* Info.plist */,
 			);
 			path = "20211130-BaiamanGapparov-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		927B9D82272E4D06004A6BDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				927B9D9E272EFE7C004A6BDE /* School.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		927B9D85272E4D6D004A6BDE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				927B9DBF272F15E8004A6BDE /* SchoolViewController.swift */,
+				927B9DF0272F9D8E004A6BDE /* SchoolDetailTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		927B9D89272EF05A004A6BDE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				927B9D5C272E2A48004A6BDE /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		927B9D8A272EF06B004A6BDE /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				927B9D57272E2A48004A6BDE /* Assets.xcassets */,
+				927B9D59272E2A48004A6BDE /* LaunchScreen.storyboard */,
+				927B9DD3272F72CE004A6BDE /* Constants.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		927B9D96272EF62F004A6BDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				927B9D97272EF651004A6BDE /* cells */,
+				927B9D54272E2A3B004A6BDE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		927B9D97272EF651004A6BDE /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				927B9DF5272F9E69004A6BDE /* Detail Cells */,
+				927B9DEB272F9D6B004A6BDE /* SchoolTableViewCell.swift */,
+				927B9DDD272F731E004A6BDE /* DetailCells.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		927B9DCA272F706C004A6BDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				927B9DCB272F7085004A6BDE /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		927B9DE2272F7759004A6BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				927B9DE3272F777D004A6BDE /* CellAnimator.swift */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		927B9DF5272F9E69004A6BDE /* Detail Cells */ = {
+			isa = PBXGroup;
+			children = (
+				927B9DF6272F9E8A004A6BDE /* SchoolOverviewTableViewCell.swift */,
+				927B9DFE272F9E9D004A6BDE /* SchoolAddressTableViewCell.swift */,
+				927B9E03272F9EB7004A6BDE /* SchoolSatScoresTableViewCell.swift */,
+				927B9E08272F9ED4004A6BDE /* SchoolContactTableViewCell.swift */,
+			);
+			path = "Detail Cells";
+			sourceTree = "<group>";
+		};
+		927B9E132730360F004A6BDE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				927B9DD8272F72F0004A6BDE /* Utils.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +374,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927B9D53272E2A3B004A6BDE /* ViewController.swift in Sources */,
+				927B9DFF272F9E9D004A6BDE /* SchoolAddressTableViewCell.swift in Sources */,
+				927B9E09272F9ED4004A6BDE /* SchoolContactTableViewCell.swift in Sources */,
 				927B9D4F272E2A3B004A6BDE /* AppDelegate.swift in Sources */,
+				927B9DF1272F9D8E004A6BDE /* SchoolDetailTableViewController.swift in Sources */,
+				927B9DE4272F777D004A6BDE /* CellAnimator.swift in Sources */,
+				927B9DD9272F72F0004A6BDE /* Utils.swift in Sources */,
 				927B9D51272E2A3B004A6BDE /* SceneDelegate.swift in Sources */,
+				927B9DCC272F7085004A6BDE /* Extensions.swift in Sources */,
+				927B9DEC272F9D6B004A6BDE /* SchoolTableViewCell.swift in Sources */,
+				927B9DC0272F15E8004A6BDE /* SchoolViewController.swift in Sources */,
+				927B9DDE272F731E004A6BDE /* DetailCells.swift in Sources */,
+				927B9D9F272EFE7C004A6BDE /* School.swift in Sources */,
+				927B9E04272F9EB7004A6BDE /* SchoolSatScoresTableViewCell.swift in Sources */,
+				927B9DF7272F9E8A004A6BDE /* SchoolOverviewTableViewCell.swift in Sources */,
+				927B9DD4272F72CE004A6BDE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +566,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Q8LL2F955;
-				INFOPLIST_FILE = "20211130-BaiamanGapparov-NYCSchools/Info.plist";
+				INFOPLIST_FILE = "20211130-BaiamanGapparov-NYCSchools/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,7 +585,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9Q8LL2F955;
-				INFOPLIST_FILE = "20211130-BaiamanGapparov-NYCSchools/Info.plist";
+				INFOPLIST_FILE = "20211130-BaiamanGapparov-NYCSchools/Config/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
